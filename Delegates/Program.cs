@@ -7,7 +7,7 @@ namespace Delegates
         delegate void Alarm();      // 1.declaring a delegate
         static void Main(string[] args)
         {
-            //manualy declaring delegate
+            //manualy declaring delegate 
             Alarm alarm;            // 2.creating a veriable
             alarm = WakeUp;         // 3.assigning the address of the method to this variable
             alarm();                // 4.calling a method
